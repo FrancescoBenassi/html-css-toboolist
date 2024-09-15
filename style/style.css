@@ -5,7 +5,11 @@ Reset
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+    font-style: normal;
 }
+
 /*********
 body style
 *********/
@@ -24,4 +28,32 @@ header {
 header img {
     max-height: 70px;
     padding: 10px 20px;
+}
+
+/*********
+main style
+*********/
+main {
+    margin: auto;
+    margin-top: 40px;
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.add {
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.tasks {
+    margin: 10px 0px 10px 50px;
+    background-color: rgb(71, 187, 233);
+}
+
+hr {
+    color: rgb(246, 244, 244);
 }
