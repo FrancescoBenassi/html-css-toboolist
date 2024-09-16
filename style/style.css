@@ -84,6 +84,10 @@ h2 {
     margin-bottom: 30px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .content {
     margin-top: 10px;
     margin-bottom: 20px;
